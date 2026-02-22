@@ -1,0 +1,24 @@
+extends ../layouts/layout.pug
+
+block content
+	.page-content
+		header.header
+			.container
+				.header-content
+					a(href="tel:+74958888888").header-contact
+						i.phone-icon
+						span.phone-number +7 (495) 123-45-67
+
+		main.main-page
+			section.promo
+				.container
+					.promo-content
+						a(href="#!").logo
+							img(src='./img/logo.webp', srcset='./img/logo@2x.webp 2x' width='800' height='' loading='lazy' alt='img')
+						h1.h1 Настоящая грузинская кухня #[span в ] Москве
+						.promo-subtitle Вкус Кавказа в каждом хинкали
+					
+		include ../sections/_footer.pug
+			
+block variables
+	-var title = "Project";
