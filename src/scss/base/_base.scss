@@ -146,5 +146,18 @@ input::placeholder, textarea::placeholder{
 	flex-direction: row;
 	}
 }
+.shad-txt{
+	 text-shadow: 1px 1px 8px rgba(0,0,0, .8);
+}
 
-
+.h2{
+	font-weight: 700;
+	font-size: 48px;
+	margin-bottom: .5em;
+	@media (max-width: 1199px) {
+	  font-size: 40px;
+	}
+	@media (max-width: 767px) {
+	font-size: 30px;
+	}
+}

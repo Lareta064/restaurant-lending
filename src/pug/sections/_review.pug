@@ -1,0 +1,52 @@
+//REVIEW
+section.review
+	.container
+		.review-title
+			h2.h2 Отзывы наших гостей
+			.review-subtitle
+				.trip-item
+					img(src='./img/tripadvisor.webp', srcset='./img/tripadvisor@2x.webp 2x' width='200' height='30' loading='lazy' alt='img')
+				.rating-item
+					.rating-value 4.8
+					img(src='./img/google-logo.webp' width='70' height='24' loading='lazy' alt='img')
+			
+		.review-swiper.swiper
+			.swiper-wrapper
+				.swiper-slide
+					.review-card
+						.review-card__img
+							img(src='./img/rev1.webp' width='140' height='47' loading='lazy' alt='img')
+						.review-card__group
+							.review-card__name Марина К.
+							.review-card__stars
+							.review-card__txt
+								p Восхитительное место!<br>Хинкали просто потрясающие!
+				.swiper-slide
+					.review-card
+						.review-card__img
+							img(src='./img/rev2.webp' width='100' height='100' loading='lazy' alt='img')
+						.review-card__group
+							.review-card__name Иван П.
+							.review-card__txt
+								p Уютная атмосфера!<br>Вкуснейший шашлык. Рекомендую!
+				.swiper-slide
+					.review-card
+						.review-card__img
+							img(src='./img/rev3.webp' width='100' height='100' loading='lazy' alt='img')
+						.review-card__group
+							.review-card__name Марина К.
+							.review-card__stars
+							.review-card__txt
+								p Восхитительное место!<br>Хинкали просто потрясающие!
+				.swiper-slide
+					.review-card
+						.review-card__img
+							img(src='./img/rev4.webp' width='100' height='100' loading='lazy' alt='img')
+						.review-card__group
+							.review-card__name Иван П.
+							.review-card__stars
+							.review-card__txt
+								p Восхитительное место!<br>Хинкали просто потрясающие!
+
+			//pagination
+			.swiper-pagination
