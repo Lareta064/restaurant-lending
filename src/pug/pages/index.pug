@@ -5,10 +5,12 @@ block content
 		header.header
 			.container
 				.header-content
-					a(href="tel:+74958888888").header-contact
-						i.phone-icon
-						span.phone-number +7 (495) 123-45-67
-
+					.header-contact-group
+						a(href="tel:+74958888888").header-contact
+							i.phone-icon
+							span.phone-number +7 (495) 123-45-67
+						p.opening-hours Ежедневно<br> с&nbsp;11:00 до 23:00
+		
 		main.main-page
 			section.promo
 				.container
@@ -17,6 +19,14 @@ block content
 							img(src='./img/logo.webp', srcset='./img/logo@2x.webp 2x' width='800' height='' loading='lazy' alt='img')
 						h1.h1 Настоящая грузинская кухня #[span в ] Москве
 						.promo-subtitle Вкус Кавказа в каждом хинкали
+
+						.promo-buttons
+							button.btn.btn-red(type="button") Забронировать столик
+							button.btn.btn-green(type="button") Меню ресторана
+							button.btn.btn-orange(type="button") Заказать Доставку
+
+
+
 					
 		include ../sections/_footer.pug
 			
